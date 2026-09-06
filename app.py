@@ -24,7 +24,7 @@ if uploaded_file is not None:
 
     if st.button("Analyze PDF"):
 
-        webhook_url = "PUT_YOUR_N8N_WEBHOOK_URL_HERE"
+        webhook_url = "https://lobali.app.n8n.cloud/webhook-test/pdf-agent"
 
         files = {
             "file": (
